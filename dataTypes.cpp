@@ -22,5 +22,7 @@ int main()
 
     cout << "size of short int " << sizeof(si) << endl;
     cout << "size of long int " << sizeof(li) << endl;
+
+    cout << "Masud akta moga" << endl;
     return 0;
 }
