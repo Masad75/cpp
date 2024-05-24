@@ -15,6 +15,7 @@ int main()
             s[i] -= 32;
         }
     }
+
     cout << s << endl;
 
     for (int i = 0; i < s.length(); i++)
@@ -25,7 +26,13 @@ int main()
         }
     }
 
-    cout << s;
+    cout << s << endl;
+
+    // built in function
+
+    transform(s.begin(), s.end(), s.begin(), ::toupper);
+
+    cout << s << endl;
 
     return 0;
 }
